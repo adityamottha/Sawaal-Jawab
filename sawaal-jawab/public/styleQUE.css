@@ -1,0 +1,68 @@
+
+.logoText{
+color: rgb(0, 81, 128);
+font-size: xx-large;
+text-decoration: underline;
+}
+
+.headerText{
+font-weight: 500;
+}
+
+.form-margin15{
+    margin-bottom: 15px;
+}
+.heading{
+    text-align: center;
+    
+    /* text-decoration: underline; */
+}
+
+.textBold{
+    font-weight: 500;
+  color: black;
+}
+   .question-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+
+}
+.question-item h5{
+    margin: 8;
+    padding: 0;
+}
+.questionTitle{
+    font-size: 20px;
+text-decoration: none;
+    color: rgb(0, 81, 128);
+}
+.question-item a{
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(0, 81, 128);
+    
+}
+.Dectext{
+ font-weight: 500;
+}
+
+.answerWrapper{
+border-bottom: 1px solid rgba(202, 200, 200, 0.867);
+margin-bottom: 10px;
+padding: 5px;
+ font-weight: 500;
+}
+.headOfAnswer{
+color: rgb(0, 70, 111);
+font-weight: 600;
+}
+.myQuestion{
+    display: flex;
+    justify-content: space-between;
+} 
+
+/* this is the new css from chatGPT */
+
+
+/* Reset and Base Styles */
