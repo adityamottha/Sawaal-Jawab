@@ -25,22 +25,27 @@ The goal of the platform is to provide a space where users can share knowledge a
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
-Sawaal-jawab/
-├── index.php # Homepage (question feed)
-├── login.php # User login
-├── register.php # User registration
-├── ask.php # Form to post new questions
-├── answer.php # Form to post answers
-├── search.php # Search functionality
-├── category.php # Questions by category
-├── includes/
-│ ├── db.php # Database connection
-│ ├── header.php # Common header/nav
-│ └── footer.php # Common footer
-├── assets/
-│ ├── css/ # Stylesheets
-│ ├── js/ # JavaScript files
-│ └── images/ # Static images/icons
-└── README.md # Project info
+## Sawaal-jawab/ (Project Folder)
+  ├── **client (Client Folder):**
+  | ├── answers.php
+  │ ├── category.php
+  │ └──categoryList.php
+  | ├── commonFiles.php
+  │ ├── header.php
+  │ └──login.php
+  | ├── questionsDetails.php
+  │ ├── questions.php
+  │ └──signup.php
+  ├── **Database(Database Folder):**
+  | ├── answerdetails.php
+  │ ├── categorytable.php
+  │ └──database.php
+  | ├── quetionstable.php
+  ├── **public (Public Folder):**
+  | ├── Image
+  │ ├── styleQUE.css
+  ├── **Server (Server Folder):**
+  | ├── request.php
+**├── index.php (Atteched to Root folder):**
